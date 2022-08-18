@@ -11,8 +11,6 @@ function Column(props) {
         <div> {isEdit && (<input type="text" value={title} onChange={(e)=>setTitle(e.target.value)} />)}{!isEdit && title}</div>
         <div className={"placmentContainerRight"}><button onClick={()=> setIsEdit(!isEdit)}>{isEdit ? "Save":"Edit title"}</button></div>
       </div>
-
-
     </div>
   );
 }
