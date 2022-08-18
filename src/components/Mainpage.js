@@ -4,7 +4,6 @@ import './Mainpage.css'
 import Row from "./Row"
 import Navgation from "./Navigation"
 
-
 class Mainpage extends Component {
   state={
       articles:[]
